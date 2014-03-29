@@ -9,7 +9,7 @@ rails new myapp
 
 ```
 # Generate a complete scaffold (migration, model, controller, views)
-rails g scaffold **Object attribute:datatype**
+rails g scaffold Object attribute:datatype
 
 # Eg. Create a scaffold for a book with a title, author and summary
 rails g scaffold Book title:string author:string summary:text
@@ -17,7 +17,7 @@ rails g scaffold Book title:string author:string summary:text
 
 ```
 # Generate a controller and view/s
-rails g controller **controller_name action**
+rails g controller controller_name action
 
 
 # Eg. Create a home index page/home controller with index action
@@ -26,12 +26,12 @@ rails g controller home index
 
 ```
 # Generate a data model with corresponding migration (a data model/database table)
-rails g model **Object attribute:datatype**
+rails g model Object attribute:datatype
 ```
 
 ```
 # Add an attribute to a data model/database table
-rails g migration **AddAttributeToObject attribute:datatype**
+rails g migration AddAttributeToObject attribute:datatype
 ```
 
 
@@ -72,7 +72,7 @@ git add --all
 
 ```
 # Commit all changes to your repository
-git commit -am '**message**'
+git commit -am 'message'
 ```
 
 ```
@@ -92,7 +92,7 @@ git push origin master
 
 ```
 # Create a new branch and checkout the new branch in one command
-git checkout -b **newbranch**
+git checkout -b newbranch
 ```
 
 
@@ -100,7 +100,7 @@ git checkout -b **newbranch**
 # Heroku commands
 ```
 # Create a new app/repository on Heroku
-heroku create **appname**
+heroku create appname
 ```
 
 ```
@@ -112,6 +112,3 @@ heroku run rake db:migrate
 # Check Heroku logs
 heroku logs
 ```
-
-
-
