@@ -34,6 +34,14 @@ rails g model Object attribute:datatype
 rails g migration AddAttributeToObject attribute:datatype
 ```
 
+```
+# Start the server
+rails s
+
+# Stop the server
+Cntrl + C
+```
+
 
 
 # Rake commands
